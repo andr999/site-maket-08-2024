@@ -69,6 +69,13 @@ ul.header-menu li {
 	transition: opacity .5s ease; 
 
 }
+ul.header-menu li.active {
+	background-color: red;
+	
+}
+ul.header-menu li.active a {
+	color: white;
+}
 ul.header-menu li:hover {
 	opacity: .5;
 }
